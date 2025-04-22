@@ -1,7 +1,7 @@
 import Header from '@/components/custom/Header'
 import { AtomIcon, Edit, Share2 } from 'lucide-react'
 import React from 'react'
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 function Home() {
     return (
