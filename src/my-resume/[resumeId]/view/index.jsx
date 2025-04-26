@@ -66,11 +66,14 @@ function ViewResume() {
                 </div>
             </div>
 
-            <div className='my-10 mx-10 md:mx-20 lg:mx-36'>
+            {resumeInfo && (
+              <div className='my-10 mx-10 md:mx-20 lg:mx-36'>
                 <div id="print-area" >
-                    <ResumePreview />
+                  <ResumePreview />
                 </div>
-            </div>
+              </div>
+            )}
+
         </ResumeInfoContext.Provider>
     )
 }
